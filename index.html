@@ -58,7 +58,7 @@
                     <img src="./icons/phone.svg" alt="">
                     <div>
                         <h5>Call us: 0812 8716 5516</h5>
-                        <h6>E-mail : toserba99@freshmeal.com</h6>
+                        <h6>E-mail : lontongsayuruni99@gmail.com</h6>
                     </div>
                 </div>
                 <div class="time flex items-center">
@@ -114,8 +114,8 @@
                             <div class="contact flex items-center">
                                 <img src="./icons/phone.svg" alt="">
                                 <div>
-                                    <h5>Call US: (+84) 123 456 789</h5>
-                                    <h6>E-mail : support@freshmeal.com</h6>
+                                    <h5>Call US: 0812 8716 5516</h5>
+                                    <h6>E-mail : lontongsayuruni99@gmail.com</h6>
                                 </div>
                             </div>
                             <div class="branding">
@@ -153,11 +153,20 @@
                         <h1>Lontong Sayur<span> Uni Fitri</span> Website</h1>
                         <p>Lontong Sayur Uni Fitri merupakan makanan-makanan khas yang berasal dari Sumatera Barat, Padang</p>
                         <div>
-                            <a href="https://wa.me/62081287165516" target="_blank">
-                                <button class="btn btn-primary">
-                                    Hubungi via WhatsApp
-                                </button>
-                            </a>
+                            <button id="whatsappButton" style="background-color: #25D366; color: #fff; padding: 10px 15px; font-size: 16px; border: none; border-radius: 5px; cursor: pointer;">
+                                Hubungi kami via WhatsApp
+                            </button>
+                            
+                            <script>
+                            document.getElementById('whatsappButton').addEventListener('click', function() {
+                                // Ganti nomor telepon dan pesan sesuai kebutuhan
+                                var phoneNumber = '6281317517764';
+                                var message = 'Halo, saya tertarik untuk membeli produk lontong sayur kami di sini.';
+                            
+                                // Membuka aplikasi WhatsApp dengan nomor dan pesan
+                                window.open('https://wa.me/' + phoneNumber + '?text=' + encodeURIComponent(message), '_blank');
+                            });
+                            </script>
                         </div>
                         <div class="hero-image">
                             <img src="./images/straw.png" alt="">
@@ -187,12 +196,13 @@
                                             <img src="./icons/star-grey.svg" alt="">
                                         </div>
                                         <div class="price text-center">
-                                            $ 1.25
+                                            $ 1
                                         </div>
                                         <div class="flex justify-center">
                                             <button>
                                                 <img src="./icons/cart-2.svg" alt="">
                                                 <span>Add to cart</span>
+                                        
                                             </button>
                                         </div>
                                     </div>
@@ -256,13 +266,13 @@
                 </section>
                 <section class="about-meal">
                     <div class="container">
-                        <h1 class="section-heading">About Fresh Meal</h1>
+                        <h1 class="section-heading">Our Social Media</h1>
                         <div class="about-meal-wrap flex">
                             <div class="flex-1">
-                                <img src="./images/Lontong sayur.jpeg" alt="">
+                                <img src="./images/Instagram.png" alt="">
                             </div>
                             <div class="flex-1">
-                                <h2>Freshmeal is a long established fact that a reader will be distracted</h2>
+                                <h2>Lontong Sayur uni fitri</h2>
                                 <p>Kami punya rekomendasi menu yang mudah kamu buat. Yup, lontong sayur! Biasanya kita pakai santan, tapi kita menggantikannya dengan FiberCreme pengganti santan yang tinggi serat ini. Jangan khawatir, rasanya tetap sama, bahkan lebih creamy dan sehat..</p>
                                 <button class="btn btn-secondary">Read More</button>
                             </div>
@@ -277,19 +287,17 @@
                                 <img class="icon" src="./icons/transport.svg" alt="">
                                 <h2>Pesan Antar</h2>
                                 <p>Kami siap mengantarkan pesanan anda kapanpun.</p>
-                                <button class="btn btn-secondary">Read More</button>
                             </div>
                             <div class="service-card magic-shadow-sm">
                                 <img class="icon" src="./icons/bag.svg" alt="">
                                 <h2 class="text-primary">24 Jam Pelayanan</h2>
                                 <p>Kami selalu siap melayani pelanggan kami selama 24 jam.</p>
-                                <button class="btn btn-primary">Read More</button>
                             </div>
                             <div class="service-card magic-shadow-sm">
                                 <img class="icon" src="./icons/usd.svg" alt="">
                                 <h2>Dijamin Enak</h2>
                                 <p>Makanan kami sudah kami pastikan enak dan lezat.</p>
-                                <button class="btn btn-secondary">Read More</button>
+
                             </div>
                         </div>
                     </div>
@@ -318,7 +326,7 @@
                     </div>
                 </section>-->
 
-                <section class="latest-news">
+                <!--<section class="latest-news">
                     <div class="container">
                         <h1 class="section-heading">Lastest News from Blog</h1>
                         <div class="article-wrapper">
@@ -369,7 +377,7 @@
                             <button class="btn btn-secondary">View All</button>
                         </div>
                     </div>
-                </section>
+                </section>-->
 
                 <section class="subscribe">
                     <div class="container flex items-center">
@@ -377,11 +385,9 @@
                             <img src="./images/rasberry.png" alt="">
                         </div>
                         <div>
-                            <h1>Subscribe to your newsletter</h1>
-                            <p>Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many
-                                web sites
-                                still in their infancy.</p>
-                                <a href="https://www.instagram.com/USERNAME/" target="_blank">
+                            <h1>Follow instagram Kami</h1>
+                            <p>Silahkan berkunjung ke instagram kami tidak akan ada ruginya bisa melihat diskon, dan aktifitas kami.</p>
+                                <a href="https://www.instagram.com/toserbaunifitri/" target="_blank">
                                     <button style="background-color: #C13584; color: #fff; padding: 10px 15px; font-size: 16px; border: none; border-radius: 5px; cursor: pointer; margin-top: 10px;">
                                         Follow on Instagram
                                     </button>
@@ -399,14 +405,14 @@
                                     <img src="./icons/phone-2.svg" alt="">
                                     <div>
                                         <span>Call us:</span>
-                                        <span>(+84) 123 456 789</span>
+                                        <span>0812 8716 5516</span>
                                     </div>
                                 </div>
                                 <div>
                                     <img src="./icons/bag-2.svg" alt="">
                                     <div>
                                         <span>E-mail ::</span>
-                                        <span>support@freshmeal.com</span>
+                                        <span>lontongsayuruni99@gmail.com</span>
                                     </div>
                                 </div>
                                 <div>
@@ -425,14 +431,11 @@
                             width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                     </div>
                 </section>
-
                 <footer id="footer">
                     <div class="container">
                         <div class="box">
                             <h3>About us</h3>
-                            <p>It was popularised in the 1960 with the release of Latest sheets containing Lorem Ipsum
-                                passage.</p>
-                            <button class="btn btn-secondary">Read More</button>
+                            <p>Di Lontong Sayur Uni Fitri kami menyediakan berbagai makanan daerah asal Sumatera Barat atau Padang.</p>
                         </div>
                         <div class="box">
                             <h3>Quik Links</h3>
