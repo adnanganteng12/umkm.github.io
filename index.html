@@ -17,19 +17,13 @@
                 <img src="./icons/logo.svg" alt="">
             </div>
             <div class="mobile-nav">
-                <div class="cart">
-                    <div class="flex items-center">
-                        <img src="./icons/cart-dark.svg" alt="">
-                        <a href="#">0 Items - ($0.00)</a>
-                    </div>
-                </div>
                 <div class="nav-top">
                     <ul>
                         <li>
                             <a href="#">Home</a>
                         </li>
                         <li>
-                            <a href="#">About us</a>
+                            <a href="#">Tentang Kami</a>
                         </li>
                         <li>
                             <a href="#">Products</a>
@@ -44,7 +38,7 @@
                             <a href="#">Services</a>
                         </li>
                         <li>
-                            <a href="#">Contact us</a>
+                            <a href="#">Hubungi Kami</a>
                         </li>
                         <li>
                             <a href="#">Log in</a>
@@ -57,15 +51,15 @@
                 <div class="contact flex items-center">
                     <img src="./icons/phone.svg" alt="">
                     <div>
-                        <h5>Call us: 0812 8716 5516</h5>
+                        <h5>Hubungi Kami: 0812 8716 5516</h5>
                         <h6>E-mail : lontongsayuruni99@gmail.com</h6>
                     </div>
                 </div>
                 <div class="time flex items-center">
                     <img src="./icons/clock.svg" alt="">
                     <div>
-                        <h5>Working Hours:</h5>
-                        <h6>Mon - Sat (8.00am - 12.00am)</h6>
+                        <h5>Jam Kerja:</h5>
+                        <h6>Senin - Sabtu (8.00am - 12.00am)</h6>
                     </div>
                 </div>
             </div>
@@ -84,10 +78,8 @@
                     <div class="container flex justify-between items-center">
                         <div class="icons">
                             <a href="#"><img src="./icons/facebook.svg" alt=""></a>
-                            <a href="#"><img src="./icons/twitter.svg" alt=""></a>
                             <a href="#"><img src="./icons/google.svg" alt=""></a>
-                            <a href="#"><img src="./icons/instagram.svg" alt=""></a>
-                            <a href="#"><img src="./icons/search.svg" alt=""></a>
+                            <a href="https://www.instagram.com/toserbaunifitri/"><img src="./icons/instagram.svg" alt=""></a>
                         </div>
                         <div class="auth flex items-center">
                             <div>
@@ -100,10 +92,6 @@
                                 <a href="#">Register Now</a>
                             </div>
                             <span class="divider">|</span>
-                            <div>
-                                <img src="./icons/cart.svg" alt="">
-                                <a href="#">0 Items - ($0.00)</a>
-                            </div>
                         </div>
                     </div>
                 </header>
@@ -114,41 +102,38 @@
                             <div class="contact flex items-center">
                                 <img src="./icons/phone.svg" alt="">
                                 <div>
-                                    <h5>Call US: 0812 8716 5516</h5>
+                                    <h5>Hubungi Kami: 0812 8716 5516</h5>
                                     <h6>E-mail : lontongsayuruni99@gmail.com</h6>
                                 </div>
                             </div>
-                            <div class="branding">
+                            <!--<div class="branding">
                                 <img src="./icons/logo.svg" alt="">
-                            </div>
+                            </div>-->
                             <div class="time flex items-center">
                                 <img src="./icons/clock.svg" alt="">
                                 <div>
-                                    <h5>Working Hours:</h5>
-                                    <h6>Mon - Sat (8.00am - 12.00am)</h6>
+                                    <h5>Jam Kerja:</h5>
+                                    <h6>Senin - Sabtu (8.00am - 12.00am)</h6>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="navbar magic-shadow">
                         <div class="container flex justify-center">
-                            <a href="#" class="active">Home</a>
-                            <a href="#">About us</a>
-                            <a href="#">Products</a>
-                            <a href="#">Blog</a>
-                            <a href="#">Shop</a>
-                            <a href="#">Services</a>
-                            <a href="#">Gallery</a>
-                            <a href="#contact-us">Contact us</a>
+                            <a href="#home" class="active">Home</a>
+                            <a href="#terlaris">Makanan Terlaris</a>
+                            <a href="#sosmed">Social Media</a>
+                            <a href="#pelayanan">Pelayanan</a>
+                            <a href="#contact-us">Hubungi Kami</a>
                         </div>
                     </div>
                 </nav>
 
-                <header class="hero flex items-center">
+                <header class="hero flex items-center" id="home">
                     <div class="container">
                         <div class="welcome flex items-center">
                             <span>Welcome to</span>
-                            <img src="./icons/logo-2.svg" alt="">
+                            <!--<img src="./icons/logo-2.svg" alt="">-->
                         </div>
                         <h1>Lontong Sayur<span> Uni Fitri</span> Website</h1>
                         <p>Lontong Sayur Uni Fitri merupakan makanan-makanan khas yang berasal dari Sumatera Barat, Padang</p>
@@ -161,7 +146,7 @@
                             document.getElementById('whatsappButton').addEventListener('click', function() {
                                 // Ganti nomor telepon dan pesan sesuai kebutuhan
                                 var phoneNumber = '6281317517764';
-                                var message = 'Halo, saya tertarik untuk membeli produk lontong sayur kami di sini.';
+                                var message = 'Halo, saya tertarik untuk membeli produk lontong sayur di sini.';
                             
                                 // Membuka aplikasi WhatsApp dengan nomor dan pesan
                                 window.open('https://wa.me/' + phoneNumber + '?text=' + encodeURIComponent(message), '_blank');
@@ -169,12 +154,12 @@
                             </script>
                         </div>
                         <div class="hero-image">
-                            <img src="./images/straw.png" alt="">
+                            <!--<img src="./images/logo lontong.jpeg" alt="">-->
                         </div>
                     </div>
                 </header>
 
-                <section class="top-products">
+                <section class="top-products" id="terlaris">
                     <div class="container">
                         <h1 class="section-heading">Makanan Terlaris</h1>
                         <div class="slider">
@@ -183,11 +168,11 @@
                             <div class="food-slider">
                                 <div class="food-card magic-shadow-sm">
                                     <div class="product-image flex items-center justify-center">
-                                        <img src="./images/plate-1.png" alt="">
+                                        <img src="./images/Soto.jpeg" alt="">
                                     </div>
                                     <hr>
                                     <div>
-                                        <h2 class="text-center">Summer Salad</h2>
+                                        <h2 class="text-center">Soto</h2>
                                         <div class="stars flex justify-center items-center">
                                             <img src="./icons/start-filled.svg" alt="">
                                             <img src="./icons/start-filled.svg" alt="">
@@ -196,13 +181,56 @@
                                             <img src="./icons/star-grey.svg" alt="">
                                         </div>
                                         <div class="price text-center">
-                                            $ 1
+                                            Rp 15.000
                                         </div>
                                         <div class="flex justify-center">
                                             <button>
-                                                <img src="./icons/cart-2.svg" alt="">
-                                                <span>Add to cart</span>
-                                        
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="food-card magic-shadow-sm">
+                                    <div class="product-image flex items-center justify-center">
+                                        <img src="./images/Mie Goreng.jpeg" alt="">
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <h2 class="text-center">Mie Goreng</h2>
+                                        <div class="stars flex justify-center items-center">
+                                            <img src="./icons/start-filled.svg" alt="">
+                                            <img src="./icons/start-filled.svg" alt="">
+                                            <img src="./icons/start-filled.svg" alt="">
+                                            <img src="./icons/star-grey.svg" alt="">
+                                            <img src="./icons/star-grey.svg" alt="">
+                                        </div>
+                                        <div class="price text-center">
+                                            Rp 15.000
+                                        </div>
+                                        <div class="flex justify-center">
+                                            <button>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="food-card magic-shadow-sm">
+                                    <div class="product-image flex items-center justify-center">
+                                        <img src="./images/Mie Rebus.jpeg" alt="">
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <h2 class="text-center">Mie Rebus</h2>
+                                        <div class="stars flex justify-center items-center">
+                                            <img src="./icons/start-filled.svg" alt="">
+                                            <img src="./icons/start-filled.svg" alt="">
+                                            <img src="./icons/start-filled.svg" alt="">
+                                            <img src="./icons/star-grey.svg" alt="">
+                                            <img src="./icons/star-grey.svg" alt="">
+                                        </div>
+                                        <div class="price text-center">
+                                            Rp 15.000
+                                        </div>
+                                        <div class="flex justify-center">
+                                            <button>
                                             </button>
                                         </div>
                                     </div>
@@ -226,8 +254,29 @@
                                         </div>
                                         <div class="flex justify-center">
                                             <button>
-                                                <img src="./icons/cart-2.svg" alt="">
-                                                <span>Add to cart</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="food-card magic-shadow-sm">
+                                    <div class="product-image flex items-center justify-center">
+                                        <img src="./images/Pecel Padang.jpeg" alt="">
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <h2 class="text-center">Pecel Padang</h2>
+                                        <div class="stars flex justify-center items-center">
+                                            <img src="./icons/start-filled.svg" alt="">
+                                            <img src="./icons/start-filled.svg" alt="">
+                                            <img src="./icons/start-filled.svg" alt="">
+                                            <img src="./icons/star-grey.svg" alt="">
+                                            <img src="./icons/star-grey.svg" alt="">
+                                        </div>
+                                        <div class="price text-center">
+                                            Rp 15.000
+                                        </div>
+                                        <div class="flex justify-center">
+                                            <button>
                                             </button>
                                         </div>
                                     </div>
@@ -251,8 +300,6 @@
                                         </div>
                                         <div class="flex justify-center">
                                             <button>
-                                                <img src="./icons/cart-2.svg" alt="">
-                                                <span>Add to cart</span>
                                             </button>
                                         </div>
                                     </div>
@@ -260,11 +307,11 @@
                             </div>
                         </div>
                         <div class="text-center btn-wrapper">
-                            <button class="btn btn-secondary">View More</button>
+                            <!--<button class="btn btn-secondary">View More</button>-->
                         </div>
                     </div>
                 </section>
-                <section class="about-meal">
+                <section class="about-meal" id="sosmed">
                     <div class="container">
                         <h1 class="section-heading">Our Social Media</h1>
                         <div class="about-meal-wrap flex">
@@ -273,13 +320,12 @@
                             </div>
                             <div class="flex-1">
                                 <h2>Lontong Sayur uni fitri</h2>
-                                <p>Kami punya rekomendasi menu yang mudah kamu buat. Yup, lontong sayur! Biasanya kita pakai santan, tapi kita menggantikannya dengan FiberCreme pengganti santan yang tinggi serat ini. Jangan khawatir, rasanya tetap sama, bahkan lebih creamy dan sehat..</p>
-                                <button class="btn btn-secondary">Read More</button>
+                                <p>Kami punya rekomendasi menu yang mudah kamu buat. Yup, lontong sayur! Biasanya kita pakai santan, tapi kita menggantikannya dengan pengganti santan yang tinggi serat ini. Jangan khawatir, rasanya tetap sama, bahkan lebih creamy dan sehat..</p>
                             </div>
                         </div>
                     </div>
                 </section>
-                <section class="our-services">
+                <section class="our-services" id="pelayanan">
                     <div class="container">
                         <h1 class="section-heading">Pelayanan Kami</h1>
                         <div class="card-wrapper flex">
@@ -398,13 +444,13 @@
 
                 <section class="contact-us flex" id="contact-us">
                     <div class="contact-info-wrapper">
-                        <h1 class="section-heading">Contact us</h1>
+                        <h1 class="section-heading">Kontak Kami</h1>
                         <div class="contact-info">
                             <div>
                                 <div>
                                     <img src="./icons/phone-2.svg" alt="">
                                     <div>
-                                        <span>Call us:</span>
+                                        <span>Hubungi Kami:</span>
                                         <span>0812 8716 5516</span>
                                     </div>
                                 </div>
@@ -418,54 +464,46 @@
                                 <div>
                                     <img src="./icons/clock-2.svg" alt="">
                                     <div>
-                                        <span>Working Hours:</span>
-                                        <span>Mon - Sat (8.00am - 12.00am)</span>
+                                        <span>Jam Kerja:</span>
+                                        <span>Senin - Sabtu (8.00am - 12.00am)</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="map">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206253.45012861438!2d-115.31508258571672!3d36.124918453865035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80beb782a4f57dd1%3A0x3accd5e6d5b379a3!2sLas%20Vegas%2C%20NV%2C%20USA!5e0!3m2!1sen!2sru!4v1580850940897!5m2!1sen!2sru"
-                            width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2169.656448971524!2d106.9061782897009!3d-6.342163755258933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ede57287aaf9%3A0x72c57f24a3c91316!2sWarung%20sayur%20dan%20sembako%20Toserba%20uni%20fitri!5e0!3m2!1sid!2sid!4v1706575351258!5m2!1sid!2sid"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </section>
                 <footer id="footer">
                     <div class="container">
                         <div class="box">
-                            <h3>About us</h3>
+                            <h3>Tentang Kami</h3>
                             <p>Di Lontong Sayur Uni Fitri kami menyediakan berbagai makanan daerah asal Sumatera Barat atau Padang.</p>
                         </div>
                         <div class="box">
                             <h3>Quik Links</h3>
                             <ul>
                                 <li>
-                                    <a href="#">Home</a>
+                                    <a href="#home">Home</a>
                                 </li>
                                 <li>
-                                    <a href="#">About us</a>
+                                    <a href="#terlaris">Makanan Terlaris</a>
                                 </li>
                                 <li>
-                                    <a href="#">Products</a>
+                                    <a href="#sosmed">Social Media</a>
                                 </li>
                                 <li>
-                                    <a href="#">Blog</a>
+                                    <a href="#pelayanan">Pelayanan</a>
                                 </li>
                                 <li>
-                                    <a href="#">Services</a>
+                                    <a href="#contact-us">Kontak Kami</a>
                                 </li>
-                                <li>
-                                    <a href="#">Gallery</a>
-                                </li>
-                                <li>
-                                    <a href="#">Contact us</a>
-                                </li>
-
                             </ul>
                         </div>
                         <div class="box">
-                            <h3>Follow Us</h3>
+                            <h3>Ikuti Kami</h3>
                             <div>
                                 <ul>
                                     <li>
@@ -487,7 +525,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/codersgyan/">
+                                        <a href="https://www.instagram.com/toserbaunifitri/">
                                             <img src="./icons/instagram.svg" alt="">
                                             <span>Instagram</span>
                                         </a>
@@ -495,34 +533,11 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="box instagram-api">
-                            <h3>Instagram</h3>
-                            <div class="post-wrap">
-                                <div>
-                                    <img src="./images/food-table.jpg" alt="">
-                                </div>
-                                <div>
-                                    <img src="./images/food-table.jpg" alt="">
-                                </div>
-                                <div>
-                                    <img src="./images/food-table.jpg" alt="">
-                                </div>
-                                <div>
-                                    <img src="./images/food-table.jpg" alt="">
-                                </div>
-                                <div>
-                                    <img src="./images/food-table.jpg" alt="">
-                                </div>
-                                <div>
-                                    <img src="./images/food-table.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </footer>
                 <footer class="copyright">
                     <div>
-                        Copyright © 2020 .All rights reserved by <a href="https://www.instagram.com/codersgyan/">Coder's Gyan</a>.
+                        Copyright © 2024 .All rights reserved by <a href="https://www.instagram.com/toserbaunifitri/">Toserba Uni Fitri</a>.
                     </div>
                 </footer>
             </div>
